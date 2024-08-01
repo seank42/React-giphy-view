@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Button, Card, Row, Dropdown, DropdownButton } from "react-bootstrap";
 
-const GIPHY_URL = `http://api.giphy.com/v1/gifs`;
+const GIPHY_URL = `https://api.giphy.com/v1/gifs`;
 const API_KEY = `WqCf42eGdmX0mg4iKYuvvMor68YlahOA`;
 
 const GiphyViewer = () => {
